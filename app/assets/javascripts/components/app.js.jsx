@@ -17,8 +17,7 @@ export default class App extends React.Component {
             </Col>
             <Col md={9}>
               <AddMember />
-
-              <Tabs defaultActiveKey={1}>
+              <Tabs id={1} defaultActiveKey={1}>
                 <Tab eventKey={1} title="Start">
                   <Members />
                 </Tab>

@@ -26,7 +26,7 @@ export default class AddMember extends React.Component {
       <div>
         <Button onClick={this.open}>Add</Button>
 
-        <Modal show={this.state.showModal}>
+        <Modal show={this.state.showModal} onHide={this.close}>
           <Modal.Header closeButton>
             <Modal.Title>Add Member</Modal.Title>
           </Modal.Header>
